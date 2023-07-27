@@ -1,11 +1,11 @@
 spring:
   redis:
-    host: localhost
+    host: 192.168.31.232
     port: 6379
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: root
-    url: jdbc:mysql://127.0.0.1/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
+    url: jdbc:mysql://192.168.31.232/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
   jpa:
     show-sql: true
