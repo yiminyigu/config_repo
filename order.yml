@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: order
   redis:
     host: 192.168.31.232
     port: 6379
@@ -16,7 +14,3 @@ spring:
     port: 5672
     username: guest
     password: guest
-eureka:
-  client:
-    service-url:
-      defaultZone: http://eureka:8761/eureka/
