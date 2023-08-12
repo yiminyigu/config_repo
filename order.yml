@@ -1,16 +1,16 @@
 spring:
   redis:
-    host: 192.168.31.232
+    host: 192.168.31.237
     port: 6379
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: root
-    url: jdbc:mysql://192.168.31.232/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
+    url: jdbc:mysql://192.168.31.237/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
   jpa:
     show-sql: true
   rabbitmq:
-    host: 192.168.31.232
+    host: 192.168.31.237
     port: 5672
     username: guest
     password: guest
